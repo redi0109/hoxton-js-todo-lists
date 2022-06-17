@@ -1453,13 +1453,13 @@ let promptMessage = Number(prompt("Enter the ID of the user you want to find: ")
 console.log(promptMessage);
 
 
-let for (todo of todos){
+for (let todo of todos){
     if(promptMessage === todo.userId){
     console.log(todo.title);
     }
 }
 
-let for (user of users){
+for (let user of users){
     if(promptMessage === user.id){
     console.log("Username:" + " "+ user.name);
     }
